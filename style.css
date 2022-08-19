@@ -1,0 +1,105 @@
+html{
+    scroll-behavior: smooth;
+    margin: 0;
+}
+body {
+    background-color:#00132B;
+    font-family: 'Montserrat', sans-serif;
+    color: azure;
+}
+.nav{
+    height: 6rem;
+    display: flex;
+    justify-content: space-evenly;
+    position: sticky;
+}
+.navLogo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.NavLogo{
+    height: 5rem;
+}
+
+ul.navbarItems{
+    width: 25rem;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+}
+.navbar{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+a:link , a:visited{
+    color: #FFFFFF;
+    font-size: 1.5rem;
+}
+.top{
+    display: flex;
+    justify-content: center;
+}
+.heading{
+    font-size: 5rem;
+}
+.subheading{
+    font-size: 2rem;
+}
+.aboutSec{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5rem;
+}
+.about{
+    width: 80%;
+    text-align: center;
+}
+.joinBtn{
+        
+        border-radius: 2rem;
+        width: 10rem;
+        height: 4rem;
+        font-weight: 600;
+        color: #000000;
+        font-size: 1.5rem;
+        padding: 10px;
+        background-color: #FFFFFF;
+        text-decoration: none;
+        display: inline-block;
+        cursor: pointer;
+        text-align: center;
+}
+.head{
+    font-size: 2.5rem;
+    text-decoration: underline;
+}
+.subtext{
+    font-size: 2rem;
+}
+.subject{
+    font-size: 1.5rem;
+}
+.bottom{
+    position: relative;
+    bottom: 0;
+    margin-top: 5rem;
+}
+footer{
+
+    margin: 0;
+    height: 7rem;
+}
+.footHead{
+    text-align: center;
+}
+.footLinks{
+    display: flex;
+    justify-content: center;
+}
+.fb{
+    margin-right: 2rem;
+}
+/* #00132BB5 */
